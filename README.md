@@ -6,8 +6,11 @@ Cara sederhana mengirim email dari localhost
 menggunakan PHPMailer dengan akun google (xxx@gmail.com)
 
 [*] Turn On Less Secure Apps
+
 1.  Masuk akun gmail
-2.  Buka halaman untuk settingan Less secure apps
+
+2.  Buka halaman untuk settingan Less secure apps https://www.google.com/settings/security/lesssecureapps
+
 3.  Pada Access for less secure apps pilih Turn On.
 
 ### Cara Instalasi
@@ -45,7 +48,8 @@ menggunakan PHPMailer dengan akun google (xxx@gmail.com)
 		//'replayEmail'=>_RMAIL_,
 
 ~~~
-3. Cara penggunaan
+
+4. Cara penggunaan
   
 ~~~
 		$to=[
